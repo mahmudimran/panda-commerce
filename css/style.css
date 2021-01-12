@@ -1,3 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+p {
+    font-size: 17px;
+}
+.price{
+    color:#FF136F;
+    font-weight: 600;
+}
 .panda-card{
     border: 0;
 }
@@ -12,4 +22,27 @@
 .panda-slide{
     background-color: #FCEAE8;
     border-radius: 1em;
+}
+.pricebuy{
+    background-image: linear-gradient( #FF589B, #FF136F);
+    border: 0;
+    padding: 9px 25px;
+    color: white;
+}
+.pricebuy:hover {
+    background-color: #FFC91C;
+    color: white;
+}
+.cart01{
+    background-color: orange;
+}
+.cart02{
+    background-color: #ca40c5;
+}
+.cart03{
+    background-color: #0a0a28;
+}
+
+footer p {
+    font-size: 18px;
 }
